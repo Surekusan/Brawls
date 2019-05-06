@@ -21,6 +21,6 @@ async def on_message(message):
         msg = 'tete {0.author.mention}' .format(message)
         await client.send_message(message.channel, msg)
 
-client.run(os.getenv('NTc0OTUzOTIwNTk0NDQ0Mjk4.XNA5oQ.6zoPVEowKcwLFQIuYLhnAQah9Gw'))
+client.run(os.getenv('TOKEN'))
 
                     
